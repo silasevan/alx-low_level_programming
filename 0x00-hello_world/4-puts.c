@@ -1,11 +1,12 @@
 #include <stdio.h>
-/*	program to put programming is a building puzzle
+
+/**
+ * main -Entry point
  *
- *	The main is the entry point of the program
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("programming is like building a multilinqual puzzle\n");
+	puts("\"programming is like building a multilinqual puzzle");
 	return (0);
 }
