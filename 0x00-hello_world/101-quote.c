@@ -2,7 +2,7 @@
  * file - 101--quote.c
  */
 
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - print "and that piece of art is useful" -Dora Korper, 2015-10-19",
