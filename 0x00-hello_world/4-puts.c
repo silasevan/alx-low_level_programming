@@ -4,10 +4,10 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	puts("\"Programming is like building a multilinqual puzzle");
-
+	puts("\"Programming is like building a multiliqual puzzle");
 
 	return (0);
 }
