@@ -16,7 +16,7 @@ int main(void)
 	int num;
 
 	for (num = 0; num < 11; num++)
-		printf("%d"num);
+		printf("%d", num);
 
 	printf('\n');
 
