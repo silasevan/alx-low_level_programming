@@ -5,8 +5,7 @@
 #include <unistd.h>
 
 /**
- * main - print "and that piece of art is useful" -Dora Korper, 2015-10-19",
- * 		follow by a new line, to stardard error.
+ * main - follow by a new line, to stardard error.
  *
  * Return: Always 1.
  */
