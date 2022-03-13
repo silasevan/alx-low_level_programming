@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible combinations 
+ * main - print combo
  *
  * Return: Always 0
  */
