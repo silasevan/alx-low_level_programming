@@ -21,11 +21,11 @@ int main(void)
 		{
 			for (num3 = num2 + 1; num3 < 10; num3++)
 			{
-				putchar((digit1 % 10) + '0');
-				putchar((digit2 % 10) + '0');
-				putchar((digit3 % 10) + '0');
+				putchar((num1 % 10) + '0');
+				putchar((num2 % 10) + '0');
+				putchar((num3 % 10) + '0');
 
-				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+				if (num1 == 7 && num2 == 8 && num3 == 9)
 					continue;
 
 				putchar(',');
