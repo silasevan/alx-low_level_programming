@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * main - C program that prints all possible combinations of two-digit numbers using only the putchar
+ * main - program that prints all possible combinations 
  *
  * Return: Always 0
  */
