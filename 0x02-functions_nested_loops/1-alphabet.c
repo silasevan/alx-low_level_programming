@@ -2,7 +2,7 @@
  * file -1-alphabet.c
  */
 
-#include "main.h";
+#include "main.h"
 
 /**
  * main: print alphabet in lower case
