@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main -To print putchar
