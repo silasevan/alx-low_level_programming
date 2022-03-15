@@ -2,8 +2,7 @@
  * file - 0-putchar.c
  */
 
-#include <stdio.h>
-#include <unistd.h>
+
 #include "main.h"
 
 /**
@@ -12,20 +11,20 @@
  * Return: always 0
  */
 
-int main()
+int main(void)
 {
 
-	putchar(_putchar());
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
-}
-
-int _putchar(char c)
-{
-
-	return (write(1, &c, 1));
 }
 
 
