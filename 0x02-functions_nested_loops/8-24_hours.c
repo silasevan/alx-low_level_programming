@@ -2,7 +2,7 @@
  * file - 8-24_hours.c
  */
 
-#include "main.c"
+#include "main.h"
 
 /**
  * jack_bauer - Print every minute of the day of
