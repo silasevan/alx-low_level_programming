@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
 
  * print_line - check for a digit
@@ -11,8 +9,6 @@
  * Return:void
 
  */
-
-
 
 void print_line(int n)
 
