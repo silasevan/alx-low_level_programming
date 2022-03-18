@@ -15,28 +15,28 @@
 int main(void)
 {
 
-	int sum;
+	int num;
 
-	for (sum = 0; sum <= 100; sum++)
+	for (num = 0; num <= 100; num++)
 	{
-		if ((sum % 3) == 0 && (sum % 5) == 0)
+		if ((num % 3) == 0 && (num % 5) == 0)
 			printf("FizzBuzz");
 
-		else if ((sum % 3) == 0)
+		else if ((num % 3) == 0)
 			printf("Fizz");
 
-		else if ((sum % 5) == 0)
+		else if ((num % 5) == 0)
 			printf("Buzz");
 
 		else
 			printf("%d", sum);
 
-	if (sum == 100)
-		continue;
-	printf(" ");
+		if (sum == 100)
+			continue;
+		printf(" ");
 	}
-	
-	printf('\n');
+
+	printf("\n");
 
 	return (0);
 }
