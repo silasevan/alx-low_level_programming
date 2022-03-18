@@ -29,9 +29,9 @@ int main(void)
 			printf("Buzz");
 
 		else
-			printf("%d", sum);
+			printf("%d", num);
 
-		if (sum == 100)
+		if (num == 100)
 			continue;
 		printf(" ");
 	}
