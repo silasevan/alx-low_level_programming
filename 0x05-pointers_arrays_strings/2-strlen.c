@@ -6,10 +6,10 @@
 
 /**
  * int_strlen -Return the length of a string.
- * @s: The string.
- */
+ * @s:The string.
+ * */
 
- int _strlen(char *s)
+int _strlen(char *s)
 {
 
 	int len = 0;
