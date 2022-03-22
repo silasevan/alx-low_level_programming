@@ -2,13 +2,12 @@
 
  * File: 5-rev_string.c
 
- * Auth: Brennan D Baraban
 
  */
 
 
 
-#include "holberton.h"
+#include "main.h"
 
 
 
