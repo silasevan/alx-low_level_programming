@@ -15,8 +15,7 @@
  */
 void random_passw_gen(int N)
 {
-	int i = 0;
-	int randomizer = 0;
+
 
 	srand((unsigned int)(time(NULL));
 
@@ -35,7 +34,7 @@ void random_passw_gen(int N)
 
 			for (i = 0; i < N; i++)
 			{
-			if (randomizer = 1)
+			   if (randomizer = 1)
 			{
                           password[i] = numbers[rand() % 10];
 			  randomizer = rand() % 4;
@@ -62,11 +61,12 @@ void random_passw_gen(int N)
 			}
 }
 
+
 int main ()
 {
 	int N = 10;
 
-	random_pasw_gen(N);
+	random_passw_gen(N);
 
 	return (0);
 }
