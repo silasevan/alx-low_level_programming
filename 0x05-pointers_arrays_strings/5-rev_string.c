@@ -1,22 +1,12 @@
 /*
-
- * File: 5-rev_string.c
-
-
- */
-
-
+* File: 5-rev_string.c
+*/
 
 #include "main.h"
 
-
-
 /**
-
  * rev_string - Reverses a string.
-
  * @s: The string to be reversed.
-
  */
 
 void rev_string(char *s)
