@@ -12,6 +12,8 @@ void reverse_array(int *a, int n);
 void _puts(char *str);
 char *string_toupper(char *);
 char *cap_string(char *);
+char *rot13(char *);
+
 
 
 
