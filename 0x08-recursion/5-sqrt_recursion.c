@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqrt - find the sqrt of @a
+ * _sqrt_recursion - find the sqrt of @n
  *
  * @n: the number
  *
@@ -13,10 +13,13 @@ int _sqrt_recursion(int  n)
 
 	if (n < 1)
 		return (-1);
+	if (n == 1)
+		return (1);
 
 	if ((n * n) % n != n)
 		return (-1);
 
-	return (n*(_sqrt_recursion(n + 1) % n));
+	return (n * (_sqrt_recursion((n + 1) % n)));
 }
+
 
