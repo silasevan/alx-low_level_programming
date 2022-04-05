@@ -47,7 +47,6 @@ int count_words(char *str)
 	int index = 0, words = 0, len = 0;
 
 	for (index = 0; *(str + index); index++)
-		
 		len++;
 
 	for (index = 0; index < len; index++)
@@ -55,8 +54,7 @@ int count_words(char *str)
 
 		if (*(str + index) != ' ')
 		{
-			words++;
-			
+			words++;			
 			index += word_len(str + index);
 		}
 	}
@@ -125,7 +123,7 @@ char **strtow(char *str)
 	}
 	
 	strings[w] = NULL;
-
+	
 	return (strings);
 }
 
