@@ -53,7 +53,7 @@ char *str_concat(char *s1, char *s2)
 
 		return (NULL);
 
-	while (i < s1len)
+	while (i < s1leni)
 	{
 		s3[i] = s1[i];
 
@@ -63,12 +63,11 @@ char *str_concat(char *s1, char *s2)
 	while (i <= s3len)
 	{
 		s3[i] = s2[j];
-
+		
 		i++;
 
 		j++;
 	}
-	
 	return (s3);
 }
 
